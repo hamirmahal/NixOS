@@ -18,6 +18,9 @@
 
   # https://nix-community.github.io/NixOS-WSL/how-to/vscode.html
   environment.systemPackages = [
+      pkgs.cargo
+      pkgs.clippy
+      pkgs.gcc
       pkgs.git
       pkgs.nodejs_22
       pkgs.wget
